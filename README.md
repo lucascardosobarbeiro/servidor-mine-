@@ -30,13 +30,6 @@ Para dúvidas ou sugestões, fico à disposição no email: [lcb.barbeiro@gmail.
 
 ---
 
-1. [Configuração da Instância EC2](#configuração-da-instância-ec2)
-2. [Instalação do Servidor Minecraft](#instalação-do-servidor-minecraft)
-3. [Backup Semanal do Servidor](#backup-semanal-do-servidor)
-4. [Configuração da Função Lambda](#configuração-da-função-lambda)
-5. [Configuração da API com API Gateway](#configuração-da-api-com-api-gateway)
-6. [Automação do Servidor Minecraft](#automação-do-servidor-minecraft)
-7. [Monitoramento de Jogadores](#monitoramento-de-jogadores)
 
 ## 1. Configuração da Instância EC2
 
