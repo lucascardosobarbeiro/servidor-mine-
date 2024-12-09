@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.30.206.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729560068469
+  login: 1729559185327
+money: '0'
+last-account-name: Chuvaah
+logoutlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 192.0
+  y: 69.0
+  z: -80.0
+  yaw: 5.550001621246338
+  pitch: 9.15000057220459

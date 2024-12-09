@@ -1,0 +1,246 @@
+[13:46:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Amazon.com Inc. Corretto-21.0.5.11.1) on Linux 6.8.0-1017-aws (amd64)
+[13:46:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-131-ver/1.21.1@84281ce (2024-10-31T17:43:44Z) for Minecraft 1.21.1
+[13:46:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:46:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[13:46:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - BlueMap (5.4), Chunky (1.4.10), Essentials (2.20.1), EssentialsSpawn (2.20.1), LuckPerms (5.4.144), PluginPortal (2.0.4), ToolStats (1.8.3), Vault (1.7.3-b131), ViaBackwards (5.0.4), ViaVersion (5.0.5), WorldEdit (7.3.8+6939-7d32b45), WorldGuard (7.0.12+829a4a4), squaremap (1.3.1), voicechat (2.5.24)
+[13:46:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:47:00] [ServerMain/INFO]: Loaded 1290 recipes
+[13:47:01] [ServerMain/INFO]: Loaded 1399 advancements
+[13:47:01] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[13:47:01] [Server thread/INFO]: Loading properties
+[13:47:01] [Server thread/INFO]: This server is running Paper version 1.21.1-131-ver/1.21.1@84281ce (2024-10-31T17:43:44Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[13:47:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:47:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:47:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:47:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[13:47:05] [Server thread/INFO]: Default game type: CREATIVE
+[13:47:05] [Server thread/INFO]: Generating keypair
+[13:47:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:47:05] [Server thread/INFO]: Using epoll channel type
+[13:47:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:47:05] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:47:07] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+[13:47:07] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /home/ubuntu/minecraft-server/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+[13:47:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.5
+[13:47:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.5 is now loaded. Registering protocol transformers and injecting...
+[13:47:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:47:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:47:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:47:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:47:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.144
+[13:47:11] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:47:11] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.8+6939-7d32b45
+[13:47:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@52e7e2f]
+[13:47:13] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[13:47:13] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.1
+[13:47:13] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v5.4
+[13:47:13] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[13:47:13] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[13:47:13] [Server thread/INFO]: [PluginPortal] Loading server plugin PluginPortal v2.0.4
+[13:47:13] [Server thread/INFO]: [ToolStats] Loading server plugin ToolStats v1.8.3
+[13:47:13] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[13:47:13] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4
+[13:47:13] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.24
+[13:47:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:47:13] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.144
+[13:47:13] [Server thread/INFO]:         __    
+[13:47:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.144
+[13:47:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:47:13] [Server thread/INFO]: 
+[13:47:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:47:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:47:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:47:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:47:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2369ms)
+[13:47:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:47:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:47:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:47:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:47:15] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:47:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.8+6939-7d32b45
+[13:47:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:47:16] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:47:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[13:47:19] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.1
+[13:47:21] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.17.Final
+[13:47:21] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
+[13:47:21] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
+[13:47:21] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[13:47:21] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[13:47:21] [Server thread/ERROR]: Error occurred while enabling squaremap v1.3.1 (Is it up to date?)
+squaremap.libraries.com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) [Guice/ErrorInjectingConstructor]: IllegalArgumentException: Failed to setup icon registry
+  at SquaremapApiProvider.<init>(SquaremapApiProvider.java:48)
+  at SquaremapApiProvider.class(SquaremapApiProvider.java:48)
+  while locating SquaremapApiProvider
+  while locating Squaremap
+
+Learn more:
+  https://github.com/google/guice/wiki/ERROR_INJECTING_CONSTRUCTOR
+
+1 error
+
+======================
+Full classname legend:
+======================
+Squaremap:                "xyz.jpenilla.squaremap.api.Squaremap"
+SquaremapApiProvider:     "xyz.jpenilla.squaremap.common.SquaremapApiProvider"
+========================
+End of classname legend:
+========================
+
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:251) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1151) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.SquaremapCommon.setupApi(SquaremapCommon.java:122) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.SquaremapCommon.init(SquaremapCommon.java:71) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.paper.SquaremapPaper.init(SquaremapPaper.java:57) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.paper.SquaremapPaperBootstrap.onEnable(SquaremapPaperBootstrap.java:47) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:293) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-131-84281ce]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Failed to setup icon registry
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.IconRegistry.failedToCreateRegistry(IconRegistry.java:78) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.IconRegistry.<init>(IconRegistry.java:31) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.SquaremapApiProvider.<init>(SquaremapApiProvider.java:42) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:120) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:60) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	... 15 more
+Caused by: java.nio.file.AccessDeniedException: plugins/squaremap/web/images/icon/registered/squaremap-spawn_icon.png
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:291) ~[?:?]
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:104) ~[?:?]
+	at java.base/java.nio.file.Files.delete(Files.java:1152) ~[?:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.util.Util.lambda$sneaky$0(Util.java:51) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395) ~[?:?]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.util.FileUtil.deleteRecursively(FileUtil.java:41) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.IconRegistry.<init>(IconRegistry.java:27) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/xyz.jpenilla.squaremap.common.SquaremapApiProvider.<init>(SquaremapApiProvider.java:42) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:120) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:60) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	at squaremap-paper-mc1.21.1-1.3.1.jar/squaremap.libraries.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[squaremap-paper-mc1.21.1-1.3.1.jar:?]
+	... 15 more
+[13:47:21] [Server thread/INFO]: [squaremap] Disabling squaremap v1.3.1
+[13:47:21] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.17.Final
+[13:47:22] [Server thread/INFO]: [squaremap] Internal webserver stopped
+[13:47:22] [Server thread/INFO]: Preparing level "world"
+[13:47:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:47:26] [Server thread/INFO]: Time elapsed: 2520 ms
+[13:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:47:27] [Server thread/INFO]: Time elapsed: 513 ms
+[13:47:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:47:27] [Server thread/INFO]: Time elapsed: 264 ms
+[13:47:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.5
+[13:47:27] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[13:47:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[13:47:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:47:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:47:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:47:29] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[13:47:29] [Server thread/INFO]: [Essentials] Using locale en
+[13:47:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:47:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:47:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:47:29] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:47:29] [Server thread/INFO]: [BlueMap] Enabling BlueMap v5.4
+[13:47:29] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+[13:47:29] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[13:47:30] [BlueMap-Load/INFO]: [BlueMap] Loading...
+[13:47:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[13:47:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[13:47:31] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:47:31] [BlueMap-Load/INFO]: [BlueMap] Loading resources...
+[13:47:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[13:47:32] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[13:47:32] [Server thread/INFO]: [PluginPortal] Enabling PluginPortal v2.0.4
+[13:47:32] [Server thread/WARN]: [PluginPortal] "PluginPortal v2.0.4" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void revxrsal.commands.bukkit.brigadier.PaperCommodore$CommandRegisterListener.onCommandRegistered(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<?>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [Flyte].
+[13:47:34] [BlueMap-Load/INFO]: [BlueMap] Loading textures...
+[13:47:36] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.8.3
+[13:47:37] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[13:47:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4
+[13:47:37] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.24
+[13:47:37] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[13:47:37] [Server thread/INFO]: [voicechat] Compatibility version 18
+[13:47:37] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:47:37] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[13:47:38] [Server thread/INFO]: [spark] Starting background profiler...
+[13:47:39] [BlueMap-Load/INFO]: [BlueMap] Baking resources...
+[13:47:39] [BlueMap-Load/INFO]: [BlueMap] Resources loaded.
+[13:47:39] [Server thread/INFO]: Done preparing level "world" (17.498s)
+[13:47:39] [Server thread/INFO]: Starting remote control listener
+[13:47:39] [Server thread/INFO]: Thread RCON Listener started
+[13:47:39] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[13:47:39] [Server thread/INFO]: Running delayed init tasks
+[13:47:39] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:47:39] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:47:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:47:39] [Server thread/INFO]: Done (57.477s)! For help, type "help"
+[13:47:39] [Server thread/INFO]: Timings Reset
+[13:47:39] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:47:39] [Server thread/INFO]: [voicechat] Loading plugins
+[13:47:39] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:47:39] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:47:39] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:47:39] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[13:47:39] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[13:47:39] [BlueMap-Load/INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+[13:47:39] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_the_end'...
+[13:47:40] [Craft Scheduler Thread - 6 - ToolStats/INFO]: [ToolStats] You are running the latest version.
+[13:47:40] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world'...
+[13:47:40] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_nether'...
+[13:47:41] [BlueMap-Load/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+[13:47:41] [Thread-17/INFO]: [BlueMap] WebServer started.
+[13:47:41] [BlueMap-Load/INFO]: [BlueMap] Loaded!

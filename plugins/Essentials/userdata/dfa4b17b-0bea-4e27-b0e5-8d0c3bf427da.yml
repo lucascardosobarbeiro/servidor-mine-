@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 201.75.197.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1729907284363
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1730603225378
+  login: 1730602718437
+money: '0'
+last-account-name: CardosoBrB
+lastlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 283.74933962824156
+  y: 74.0
+  z: -140.69999998807907
+  yaw: 103.19425964355469
+  pitch: 17.27452850341797
+logoutlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 337.30000001192093
+  y: 72.0
+  z: -179.1507314330213
+  yaw: 151.76922607421875
+  pitch: 29.208465576171875

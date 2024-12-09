@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.47.41.249
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729907441242
+  login: 1729907254519
+money: '0'
+last-account-name: TrochiJr
+lastlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 194.5
+  y: 75.0
+  z: -82.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 199.98228327460282
+  y: 85.61813590589185
+  z: -241.44583568028878
+  yaw: -114.1507568359375
+  pitch: 27.299697875976562

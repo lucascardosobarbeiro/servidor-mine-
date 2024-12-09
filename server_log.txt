@@ -1,0 +1,766 @@
+2024-10-20 17:37:57 - Verificando o status da instância EC2...
+2024-10-20 17:37:59 - Ligando a instância EC2...
+2024-10-20 17:37:59 - Resposta da API: "Inst\u00e2ncia iniciada com sucesso!"
+2024-10-20 17:37:59 - Aguardando a inicialização da instância...
+2024-10-20 17:38:29 - Verificando o status do servidor Minecraft...
+2024-10-20 17:38:29 - O servidor Minecraft não está em execução. Iniciando o servidor.
+2024-10-20 17:38:29 - Iniciando o servidor Minecraft...
+2024-10-20 17:38:29 - Servidor Minecraft iniciado.
+2024-10-20 17:42:29.223633 - Lock adquirido.
+2024-10-20 17:42:29.223716 - Verificando o status da instância EC2...
+2024-10-20 17:42:30.805631 - Status da instância: 
+2024-10-20 17:42:30.805734 - Ligando a instância EC2...
+2024-10-20 17:42:31.541500 - Resposta da API: "Inst\u00e2ncia iniciada com sucesso!"
+2024-10-20 17:42:31.543341 - Aguardando a inicialização da instância...
+2024-10-20 17:43:01.543642 - Verificando o status do servidor Minecraft...
+2024-10-20 17:43:01.560857 - Status do servidor Minecraft: False
+2024-10-20 17:43:01.560938 - O servidor Minecraft não está em execução. Iniciando o servidor.
+2024-10-20 17:43:01.565684 - Servidor Minecraft iniciado.
+2024-10-20 17:43:01.565972 - Lock liberado.
+2024-10-20 17:45:53.045263 - Lock adquirido.
+2024-10-20 17:45:53.045339 - Verificando o status da instância EC2...
+2024-10-20 17:45:54.424912 - Status da instância: 
+2024-10-20 17:45:54.424996 - Ligando a instância EC2...
+2024-10-20 17:45:55.225987 - Resposta da API: "Inst\u00e2ncia iniciada com sucesso!"
+2024-10-20 17:45:55.227621 - Aguardando a inicialização da instância...
+2024-10-20 17:46:25.227883 - Aguardando o servidor Minecraft iniciar...
+2024-10-20 17:46:25.227967 - Verificando o status do servidor Minecraft...
+2024-10-20 17:46:25.237465 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:09 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+ubuntu      3238  0.9  0.7  37960 28928 pts/1    S+   17:45   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_power_efficient]
+ubuntu      3271  0.0  0.0   2800  1664 pts/1    S+   17:46   0:00 /bin/sh -c ps aux
+ubuntu      3272  0.0  0.1  11320  4352 pts/1    R+   17:46   0:00 ps aux
+
+2024-10-20 17:46:25.247348 - Status do servidor Minecraft: False
+2024-10-20 17:46:25.247417 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:46:35.247808 - Verificando o status do servidor Minecraft...
+2024-10-20 17:46:35.277730 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:10 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+ubuntu      3238  0.7  0.7  37960 28928 pts/1    S+   17:45   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_power_efficient]
+ubuntu      3277  0.0  0.0   2800  1664 pts/1    S+   17:46   0:00 /bin/sh -c ps aux
+ubuntu      3278  100  0.1  11320  4352 pts/1    R+   17:46   0:00 ps aux
+
+2024-10-20 17:46:35.308680 - Status do servidor Minecraft: False
+2024-10-20 17:46:35.308734 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:46:45.308971 - Verificando o status do servidor Minecraft...
+2024-10-20 17:46:45.330137 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:10 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+ubuntu      3238  0.5  0.7  37960 28928 pts/1    S+   17:45   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_power_efficient]
+ubuntu      3282  0.0  0.0   2800  1664 pts/1    S+   17:46   0:00 /bin/sh -c ps aux
+ubuntu      3283  0.0  0.1  11320  4352 pts/1    R+   17:46   0:00 ps aux
+
+2024-10-20 17:46:45.355605 - Status do servidor Minecraft: False
+2024-10-20 17:46:45.355674 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:46:55.355937 - Verificando o status do servidor Minecraft...
+2024-10-20 17:46:55.366457 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:10 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+ubuntu      3238  0.5  0.7  37960 28928 pts/1    S+   17:45   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_unbound]
+ubuntu      3287  0.0  0.0   2800  1664 pts/1    S+   17:46   0:00 /bin/sh -c ps aux
+ubuntu      3288  0.0  0.1  11320  4352 pts/1    R+   17:46   0:00 ps aux
+
+2024-10-20 17:46:55.376809 - Status do servidor Minecraft: False
+2024-10-20 17:46:55.376860 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:46:56.409711 - Lock liberado.
+2024-10-20 17:48:33.658007 - Lock adquirido.
+2024-10-20 17:48:33.658066 - Verificando o status da instância EC2...
+2024-10-20 17:48:35.267559 - Status da instância: 
+2024-10-20 17:48:35.267864 - Ligando a instância EC2...
+2024-10-20 17:48:36.030370 - Resposta da API: "Inst\u00e2ncia iniciada com sucesso!"
+2024-10-20 17:48:36.032069 - Aguardando a inicialização da instância...
+2024-10-20 17:49:06.032734 - Aguardando o servidor Minecraft iniciar...
+2024-10-20 17:49:06.032823 - Verificando o status do servidor Minecraft...
+2024-10-20 17:49:06.053703 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:10 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_power_efficient]
+ubuntu      3307  0.9  0.7  37960 28800 pts/1    S+   17:48   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+ubuntu      3339  0.0  0.0   2800  1664 pts/1    S+   17:49   0:00 /bin/sh -c ps aux
+ubuntu      3340  0.0  0.1  11320  4352 pts/1    R+   17:49   0:00 ps aux
+
+2024-10-20 17:49:06.076443 - Status do servidor Minecraft: False
+2024-10-20 17:49:06.076546 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:49:16.076796 - Verificando o status do servidor Minecraft...
+2024-10-20 17:49:16.087206 - Processos em execução:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22200 13400 ?        Ss   16:48   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    16:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:48   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:48   0:00 [rcu_sched]
+root          17  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:48   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:48   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    16:48   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:48   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    16:48   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-inet_]
+root          29  0.0  0.0      0     0 ?        S    16:48   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/1:1-events]
+root          31  0.0  0.0      0     0 ?        S    16:48   0:00 [khungtaskd]
+root          32  0.0  0.0      0     0 ?        S    16:48   0:00 [oom_reaper]
+root          34  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-write]
+root          35  0.0  0.0      0     0 ?        S    16:48   0:00 [kcompactd0]
+root          36  0.0  0.0      0     0 ?        SN   16:48   0:00 [ksmd]
+root          37  0.0  0.0      0     0 ?        SN   16:48   0:00 [khugepaged]
+root          38  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kinte]
+root          39  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kbloc]
+root          40  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-blkcg]
+root          41  0.0  0.0      0     0 ?        S    16:48   0:00 [irq/9-acpi]
+root          42  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-tpm_d]
+root          43  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ata_s]
+root          44  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md]
+root          45  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-md_bi]
+root          46  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-edac-]
+root          47  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-devfr]
+root          48  0.0  0.0      0     0 ?        S    16:48   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/1:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    16:48   0:00 [kswapd0]
+root          51  0.0  0.0      0     0 ?        S    16:48   0:00 [ecryptfs-kthread]
+root          52  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kthro]
+root          53  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-acpi_]
+root          54  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          55  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          56  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          57  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-nvme-]
+root          60  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-mld]
+root          61  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ipv6_]
+root          68  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kstrp]
+root          70  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/u5:0]
+root          83  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-charg]
+root          84  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p1-8]
+root          85  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root          86  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.4  66876 17772 ?        S<s  16:48   0:00 /usr/lib/systemd/systemd-journald
+root         158  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/0:4-events]
+root         159  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         161  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-kmpat]
+root         186  0.0  0.6 288952 27136 ?        SLsl 16:48   0:00 /sbin/multipathd -d -s
+root         191  0.0  0.2  26472  8268 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-udevd
+root         219  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+root         283  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-crypt]
+root         284  0.0  0.0      0     0 ?        S    16:48   0:00 [jbd2/nvme0n1p16-8]
+root         285  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ext4-]
+root         294  0.0  0.0      0     0 ?        I<   16:48   0:00 [kworker/R-ena]
+systemd+     356  0.0  0.3  21588 12800 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-resolved
+root         367  0.0  0.0  11344  2176 ?        S<sl 16:48   0:00 /sbin/auditd
+systemd+     522  0.0  0.2  22396  9728 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-networkd
+root         561  0.0  0.0   2720  1920 ?        Ss   16:48   0:00 /usr/sbin/acpid
+root         562  0.2  1.9 1344692 76340 ?       Ssl  16:48   0:10 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent -config /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml -envconfig /opt/aws/amazon-cloudwatch-agent/etc/env-config.json -otelconfig /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.yaml -pidfile /opt/aws/amazon-cloudwatch-agent/var/amazon-cloudwatch-agent.pid
+root         569  0.0  0.0   7224  2816 ?        Ss   16:48   0:00 /usr/sbin/cron -f -P
+message+     571  0.0  0.1   9804  5504 ?        Ss   16:48   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.0  0.1  82920  4096 ?        Ssl  16:48   0:00 /usr/sbin/irqbalance
+root         580  0.0  0.5  32456 20480 ?        Ss   16:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      581  0.0  0.2 383080  9588 ?        Ssl  16:48   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         587  0.0  0.4 1832376 19108 ?       Ssl  16:48   0:00 /snap/amazon-ssm-agent/9565/amazon-ssm-agent
+root         593  0.0  0.7 1843868 29344 ?       Ssl  16:48   0:00 /usr/lib/snapd/snapd
+root         601  0.0  0.2  17980  8576 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd-logind
+root         616  0.0  0.3 468916 13696 ?        Ssl  16:48   0:00 /usr/libexec/udisks2/udisksd
+_chrony      708  0.0  0.0  19388  3712 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         716  0.0  0.0   6148  2176 ttyS0    Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+_chrony      717  0.0  0.0  11060  2324 ?        S    16:48   0:00 /usr/sbin/chronyd -F 1
+root         738  0.0  0.5 109996 22912 ?        Ssl  16:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       771  0.0  0.1 222508  6272 ?        Ssl  16:48   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         814  0.0  0.3 391876 12672 ?        Ssl  16:48   0:00 /usr/sbin/ModemManager
+root         817  0.0  0.0   6104  2048 tty1     Ss+  16:48   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         902  0.0  0.7 1916048 28616 ?       Sl   16:48   0:02 /snap/amazon-ssm-agent/9565/ssm-agent-worker
+root         969  0.0  0.2  12020  8064 ?        Ss   16:48   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         970  0.0  0.2  14740  8180 ?        Ss   16:48   0:00 sshd: ubuntu [priv]
+root         973  0.0  0.0      0     0 ?        S    16:48   0:00 [psimon]
+ubuntu       975  0.0  0.2  20388 11392 ?        Ss   16:48   0:00 /usr/lib/systemd/systemd --user
+ubuntu       976  0.0  0.0  21144  3516 ?        S    16:48   0:00 (sd-pam)
+ubuntu      1092  0.1  0.1  14996  7076 ?        S    16:48   0:03 sshd: ubuntu@pts/1
+ubuntu      1093  0.0  0.1   9424  5376 pts/1    Ss   16:48   0:00 -bash
+ubuntu      1170  0.0  0.1   9288  4992 ?        Ss   16:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1755  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/u4:1-events_power_efficient]
+root        1763  0.0  0.0      0     0 ?        I    17:20   0:00 [kworker/0:2-events]
+root        3027  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:3]
+root        3028  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:0-flush-259:0]
+root        3029  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/u4:3-events_power_efficient]
+root        3270  0.0  0.0      0     0 ?        I    17:45   0:00 [kworker/u4:2-events_power_efficient]
+ubuntu      3307  0.7  0.7  37960 28800 pts/1    S+   17:48   0:00 python3 /home/ubuntu/minecraft-server/check_minecraft_server.py
+ubuntu      3344  0.0  0.0   2800  1664 pts/1    S+   17:49   0:00 /bin/sh -c ps aux
+ubuntu      3345  0.0  0.1  11320  4352 pts/1    R+   17:49   0:00 ps aux
+
+2024-10-20 17:49:16.098788 - Status do servidor Minecraft: False
+2024-10-20 17:49:16.098840 - Servidor ainda não iniciado, aguardando 10 segundos...
+2024-10-20 17:49:25.645946 - Lock liberado.
+2024-10-20 17:53:24,524 - Verificando o status da instância EC2...
+2024-10-20 17:53:24,524 - Ligando a instância EC2...
+2024-10-20 17:53:24,564 - Resposta da API: 
+2024-10-20 17:53:54,564 - Verificando o status do servidor Minecraft...
+2024-10-20 17:53:54,568 - Erro ao verificar o status do servidor: Command '['screen', '-list']' returned non-zero exit status 1.
+2024-10-20 17:53:54,568 - Iniciando o servidor Minecraft...
+2024-10-20 17:53:54,572 - Servidor Minecraft iniciado.
+2024-10-20 17:54:54,572 - Verificando o status da instância EC2...
+2024-10-20 17:54:54,572 - Ligando a instância EC2...
+2024-10-20 17:54:54,587 - Resposta da API: 
+2024-10-20 17:55:24,587 - Verificando o status do servidor Minecraft...
+2024-10-20 17:55:24,591 - Erro ao verificar o status do servidor: Command '['screen', '-list']' returned non-zero exit status 1.
+2024-10-20 17:55:24,591 - Iniciando o servidor Minecraft...
+2024-10-20 17:55:24,597 - Servidor Minecraft iniciado.
+2024-10-20 17:56:03,409 - Verificando o status da instância EC2...
+2024-10-20 17:56:03,409 - Ligando a instância EC2...
+2024-10-20 17:56:03,421 - Resposta da API: 
+2024-10-20 17:56:31,215 - Verificando o status da instância EC2...
+2024-10-20 17:56:31,215 - Ligando a instância EC2...
+2024-10-20 17:56:31,224 - Resposta da API: 
+2024-10-20 17:57:01,225 - Verificando o status do servidor Minecraft...
+2024-10-20 17:57:01,230 - Erro ao verificar o status do servidor: Command '['screen', '-list']' returned non-zero exit status 1.
+2024-10-20 17:57:01,230 - Iniciando o servidor Minecraft...
+2024-10-20 17:57:01,236 - Servidor Minecraft iniciado.
+2024-10-20 17:58:01,236 - Verificando o status da instância EC2...
+2024-10-20 17:58:01,237 - Ligando a instância EC2...
+2024-10-20 17:58:01,273 - Resposta da API: 
+2024-10-20 17:58:31,273 - Verificando o status do servidor Minecraft...
+2024-10-20 17:58:31,277 - Erro ao verificar o status do servidor: Command '['screen', '-list']' returned non-zero exit status 1.
+2024-10-20 17:58:31,277 - Iniciando o servidor Minecraft...
+2024-10-20 17:58:31,282 - Servidor Minecraft iniciado.
+2024-10-20 17:59:31,282 - Verificando o status da instância EC2...
+2024-10-20 17:59:31,282 - Ligando a instância EC2...
+2024-10-20 17:59:31,300 - Resposta da API: 
+2024-10-20 18:03:30,581 - Verificando o status da instância EC2...
+2024-10-20 18:03:30,581 - Ligando a instância EC2...
+2024-10-20 18:03:33,321 - Resposta da API: "Inst\u00e2ncia iniciada com sucesso!"
+2024-10-20 18:04:13,321 - Verificando o status do servidor Minecraft...
+2024-10-20 18:04:13,325 - Erro ao verificar o status do servidor: Command '['screen', '-list']' returned non-zero exit status 1.
+2024-10-20 18:04:13,326 - Iniciando o servidor Minecraft...
+2024-10-20 18:04:13,340 - Servidor Minecraft iniciado.

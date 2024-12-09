@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.111.22.57
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1729729572182
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729729807037
+  login: 1729728039799
+money: '0'
+last-account-name: viaNNaGOD
+lastlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 278.7992372605798
+  y: 73.0
+  z: -458.32358465055194
+  yaw: 92.39990997314453
+  pitch: 8.850016593933105
+logoutlocation:
+  world: 6c15802d-0ecd-4b70-adda-e4d09a78ea1a
+  world-name: world
+  x: 279.50442420346207
+  y: 73.5625
+  z: -443.7411808233144
+  yaw: 0.1375732421875
+  pitch: 48.45000457763672

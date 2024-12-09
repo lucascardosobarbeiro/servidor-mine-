@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting org.bukkit.craftbukkit.Main
+[14:37:59 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-Ubuntu-1ubuntu224.04; Ubuntu null) on Linux 6.8.0-1017-aws (amd64)
+[14:37:59 INFO]: [bootstrap] Loading Paper 1.21.1-123-master@aebbdc9 (2024-10-16T14:15:18Z) for Minecraft 1.21.1
+[14:37:59 INFO]: [PluginInitializerManager] Initializing plugins...
+[14:38:00 INFO]: [PluginInitializerManager] Initialized 0 plugins
+[14:38:10 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:38:13 INFO]: Loaded 1290 recipes
+[14:38:14 INFO]: Loaded 1399 advancements
+[14:38:14 INFO]: Starting minecraft server version 1.21.1
+[14:38:14 INFO]: Loading properties
+[14:38:14 INFO]: This server is running Paper version 1.21.1-123-master@aebbdc9 (2024-10-16T14:15:18Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:38:15 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:38:15 INFO]: Server Ping Player Sample Count: 12
+[14:38:15 INFO]: Using 4 threads for Netty based IO
+[14:38:17 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:38:18 INFO]: Default game type: SURVIVAL
+[14:38:18 INFO]: Generating keypair
+[14:38:18 INFO]: Starting Minecraft server on *:25565
+[14:38:18 INFO]: Using epoll channel type
+[14:38:18 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:38:18 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:38:18 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:38:18 INFO]: Preparing level "world"
+[14:38:19 INFO]: Preparing start region for dimension minecraft:overworld
+[14:38:22 INFO]: Time elapsed: 2816 ms
+[14:38:22 INFO]: Preparing start region for dimension minecraft:the_nether
+[14:38:22 INFO]: Time elapsed: 538 ms
+[14:38:22 INFO]: Preparing start region for dimension minecraft:the_end
+[14:38:22 INFO]: Time elapsed: 263 ms
+[14:38:23 INFO]: [spark] Starting background profiler...
+[14:38:23 INFO]: Done preparing level "world" (5.259s)
+[14:38:23 INFO]: Starting remote control listener
+[14:38:23 INFO]: Thread RCON Listener started
+[14:38:23 INFO]: RCON running on 0.0.0.0:25575
+[14:38:23 INFO]: Running delayed init tasks
+[14:38:23 INFO]: Done (26.423s)! For help, type "help"
+[14:38:23 INFO]: Timings Reset
+> list
+[14:54:15 INFO]: There are 0 of a max of 10 players online:
+>
