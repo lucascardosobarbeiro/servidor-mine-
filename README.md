@@ -67,29 +67,10 @@ mv paper-*.jar server.jar
 
 ### Iniciar o Servidor:
 ```bash
-java -Xmx3G -Xms3G -jar server.jar nogui
+java -Xmx6G -Xms6G -jar server.jar nogui
 ```
-
+Para utilização de no max e min de 6gb ram para o servidor de minecraft
 ## 3. Backup Semanal do Servidor
-
-### Script de Backup:
-```bash
-#!/bin/bash
-TIMESTAMP=$(date +"%Y%m%d%H%M")
-BACKUP_DIR="/home/ubuntu/minecraft-server/backups"
-mkdir -p $BACKUP_DIR
-tar -czf $BACKUP_DIR/backup_$TIMESTAMP.tar.gz /home/ubuntu/minecraft-server
-```
-
-### Configurar Cron Job para Backup:
-Adicione o cron job para executar o backup semanalmente:
-```bash
-crontab -e
-```
-Adicione a linha:
-```bash
-0 2 * * 0 /bin/bash /home/ubuntu/minecraft-server/backup.sh
-```
 
 ### Função Lambda para Excluir Backups Antigos:
 Código Python para excluir backups com mais de 30 dias:
@@ -167,38 +148,17 @@ Adicione a linha:
 ```
 
 ### Script para Iniciar o Servidor no Boot:
-Crie o script `start_server.sh` para iniciar automaticamente o servidor ao iniciar a instância:
+Crie o script `start_server.sh` para iniciar automaticamente o servidor ao iniciar a instância, você pode alocar ele dentro de uma screen na linha de comando, para que consiga utilizar a máquina e acompanhar os logs em outra tela:
 ```bash
 #!/bin/bash
 cd /home/ubuntu/minecraft-server
-java -Xmx3G -Xms3G -jar server.jar nogui
+java -Xmx6G -Xms6G -jar server.jar nogui
 ```
 
 ### Configurar o Script para Executar no Boot:
-Adicione ao systemd:
-```bash
-sudo nano /etc/systemd/system/minecraft.service
-```
-Conteúdo:
-```ini
-[Unit]
-Description=Minecraft Server
-
-[Service]
-WorkingDirectory=/home/ubuntu/minecraft-server
-ExecStart=/bin/bash /home/ubuntu/minecraft-server/start_server.sh
-Restart=always
-User=ubuntu
-
-[Install]
-WantedBy=multi-user.target
-```
-Ative e inicie o serviço:
-```bash
-sudo systemctl enable minecraft
-sudo systemctl start minecraft
-```
+Adicione o script start_server.sh ao crontab para que toda vez ao executar a máquina o servidor seja ligado
 
 ## 7. Monitoramento de Jogadores
 
 Configure o RCON para monitorar a quantidade de jogadores conectados e automatizar o desligamento do servidor caso necessário.
+o comando /list retornará com todos os players ativos dentro do servidor
