@@ -2,7 +2,7 @@
 
 # Projeto de Servidor Sob Demanda para Jogos
 
-Este projeto visa criar um servidor de jogos sob demanda, utilizando uma instância EC2 T3.large, configurado principalmente para um servidor Minecraft. A ideia central do projeto é economizar custos operacionais, mantendo o servidor desligado quando não houver jogadores conectados, mas permitindo que ele seja iniciado automaticamente quando necessário. De acordo com a calculadora de preços da AWS, a estimativa de custo mensal para o servidor foi de aproximadamente U$6,00 com uma utilização de 60 horas mensais: [Calculadora de Preços AWS](https://calculator.aws/#/createCalculator/ec2-enhancement).
+Este projeto visa criar um servidor de jogos sob demanda, utilizando uma instância EC2 T3.large, configurado principalmente para um servidor Minecraft. A ideia central do projeto é economizar custos operacionais, mantendo o servidor desligado quando não houver jogadores conectados, mas permitindo que ele seja iniciado automaticamente quando necessário. De acordo com a calculadora de preços da AWS, a estimativa de custo mensal para o servidor foi de aproximadamente U$6,00 com uma utilização de 60 horas mensais, saindo em um preço mais em conta em consideração a hosts de jogos vps ou até servidores dedicados do mercado: [Calculadora de Preços AWS](https://calculator.aws/#/createCalculator/ec2-enhancement).
 
 ## Funcionalidades
 
@@ -11,6 +11,10 @@ O servidor é configurado com funções serverless para automação de tarefas, 
 - **Backups semanais**: Realizados automaticamente para garantir que os dados do servidor sejam preservados.
 - **Ligar/Desligar o servidor**: O servidor pode ser iniciado ou parado com base na demanda, evitando custos extras quando não houver jogadores conectados.
 - **Exclusão de backups antigos**: Para não ocupar espaço desnecessário, backups antigos são automaticamente excluídos.
+  
+## Outras Funcionalidades:
+- **Arquivo para puxar versão mais atualizada do paper.mc**: O arquivo download_paper.sh é uma api fornecida pela desenvolvedor no qual conseguimos fazer o download do arquivo do jogo .jar sempre que executarmos, adicionei uma verificação ao arquivo para que toda vez que houver uma nova versão estável lançada seja feita a atualização automática da versão do servidor.
+- **Execução do servidor sempre que a máquina for ligada de forma remota**: o arquivo start_server.sh é atrelado ao crontab da máquina que ao ser ligada inicia o servidor automaticamente, possuindo tempo de inicio para aproximadamente 30 segundos após a máquina estar ligada, em caso de falha do início do servidor o script faz inúmeras tentativas até que o servidor esteja ligado
 
 A versão do Minecraft utilizada é a **Paper**, por oferecer melhor desempenho, otimização de memória e maior compatibilidade com mods pesados, em comparação com a versão original fornecida pela Mojang (distribuidora do jogo).
 
@@ -18,8 +22,10 @@ A versão do Minecraft utilizada é a **Paper**, por oferecer melhor desempenho,
 
 O objetivo principal deste servidor é oferecer uma plataforma de jogo divertida e de alto desempenho para amigos, com custo reduzido. A premissa é que a máquina EC2 seja mantida desligada quando não houver jogadores ativos, permitindo que o servidor e o custo mensal se ajustem conforme a demanda. Após um mês de testes, conseguimos confirmar que o projeto atende à proposta de custo-benefício, oferecendo uma excelente experiência de jogo.
 
-## Contato
+## Observações
+O projeto do github não consta com o arquivo .jar do servidor devido ao seu tamanho passar do limite, sendo necessário executar o arquivo download_paper.sh para o download automático do .jar localmente na máquina 
 
+## Contato
 Para dúvidas ou sugestões, fico à disposição no email: [lcb.barbeiro@gmail.com](mailto:lcb.barbeiro@gmail.com).
 
 ---
