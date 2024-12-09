@@ -1,0 +1,5 @@
+# Ignorar arquivos .jar
+*.jar
+
+# Ignorar o arquivo específico
+world_nether/level.dat_corrupted_2024-11-06_12-02-10
